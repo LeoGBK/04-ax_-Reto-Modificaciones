@@ -18,7 +18,7 @@ header {
 }
 
 div {
-  background-color: rgb(80, 214, 80);
+  background-color: lightgreen;
   height: 250px;
   width: 250px;
   border: solid black;
@@ -33,6 +33,7 @@ div {
 }
 
 p {
+  color: black;
   padding-top: 1em;
   font-size: larger;
 }
