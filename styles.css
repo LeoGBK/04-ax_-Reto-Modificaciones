@@ -28,9 +28,17 @@ div {
   margin-right: auto;
 }
 
+.amarillo {
+  background-color: yellow;
+}
+
 p {
   padding-top: 1em;
   font-size: larger;
+}
+
+.rojo {
+  color: red;
 }
 
 button {
