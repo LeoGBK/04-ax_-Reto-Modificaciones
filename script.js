@@ -10,12 +10,12 @@ const boton = document.querySelector('button');
 // This onclick event triggers a function that executes conditions to change values styles.
 boton.onclick = function () {
 
-    if (texto.style.color == 'red')
+    if (texto.style.color === 'red')
         texto.style.color = 'black';
     else
         texto.style.color = 'red';
 
-    if (circulo.style.backgroundColor == 'yellow')
+    if (circulo.style.backgroundColor === 'yellow')
         circulo.style.backgroundColor = 'lightgreen';
     else
         circulo.style.backgroundColor = 'yellow';
