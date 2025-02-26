@@ -1,3 +1,4 @@
+/* Styles for the entire body. */
 body {
   height: 100%;
   text-align: center;
@@ -5,11 +6,13 @@ body {
   background-color: rgb(127, 204, 255);
 }
 
+/* Styles for this class (<header> and <footer>). */
 .cabeceraypie {
   background-color: rgb(53, 53, 53);
   color: white;
 }
 
+/* Styles just for the header. */
 header {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -18,6 +21,7 @@ header {
   margin-bottom: 1em;
 }
 
+/* Styles for the object (circle). */
 div {
   background-color: lightgreen;
   height: 180px;
@@ -29,24 +33,19 @@ div {
   margin-right: auto;
 }
 
-.amarillo {
-  background-color: yellow;
-}
-
+/* Styles for the text within the circle. */
 p {
   padding-top: 1em;
   font-size: 16px;
 }
 
-.rojo {
-  color: red;
-}
-
+/* Marging styles settings for the button. */
 button {
   margin-top: 2em;
   margin-bottom: 2em;
 }
 
+/* Styles just for the footer. */
 footer {
   position: fixed;
   bottom: 0;
@@ -56,6 +55,7 @@ footer {
   width: 100%;
 }
 
+/* Applying media query to change <img> and text size when the display width is higher. */
 @media only screen and (min-width: 500px) {
   header {
     padding-top: 2em;
