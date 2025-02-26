@@ -6,7 +6,7 @@ body {
 }
 
 .cabeceraypie {
-  background-color: black;
+  background-color: rgb(53, 53, 53);
   color: white;
 }
 
@@ -43,8 +43,8 @@ p {
 }
 
 button {
-  position: relative;
-  top: 50px;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 footer {
@@ -58,13 +58,23 @@ footer {
 
 @media only screen and (min-width: 500px) {
   header {
-    padding-top: 3em;
-    padding-bottom: 3em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     font-size: xx-large;
   }
 
   div {
     height: 280px;
     width: 280px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+  footer {
+    font-size: medium;
+    padding-top: 2em;
+    padding-bottom: 1.5em;
   }
 }
